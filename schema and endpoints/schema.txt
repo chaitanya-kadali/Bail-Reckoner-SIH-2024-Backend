@@ -1,0 +1,14 @@
+//these are the models that are used in raw data in post man
+
+
+
+// application status
+{
+    Email_ID:String,
+      FilledApplication : Boolean,
+	  FilledAplicationAccepted : Boolean, // (for frontend : if accepted is false the whole stuff should get RED from here to END.)
+	isDrugInspectorAssigned: Boolean,
+	isDrugInspectorAccepted : Boolean, // (for frontend : if accepted is false the whole stuff should get RED from here to end)
+	isLicensed: Boolean, 
+}
+
